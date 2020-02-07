@@ -86,29 +86,53 @@ main h2 {
         position: absolute;
         top: 10%;
         left: 30px;
-        background: radial-gradient(yellow, lightyellow);
+        background: rgba(256,256,0,0.7);
         padding: .5rem;
         border: 1px;
         box-shadow: 0 0 10px gray;
 }
 
-
-
 #fiveDayForecast {display: none;}
 
-section.news img {
-    width: 150px;
-    float: none;
+
+.news {
+    background-color: rgb(243, 247, 252);
+    margin: 8% auto;
+    padding: 2%;
+    width: 96%;
+}
+
+.news img {
+    width: 80%;
+    margin: 0 10%;
     border: 1px;
     box-shadow: 0 0 10px gray;
 
 }
+#contact {
+    background-color: rgb(218, 210, 210);
+    padding: 2%;
+}
+.contactInfo {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contactInfo div {
+    text-align: center;
+    border:0;
+    padding: 2%;
+}
 
 
+.contactInfo div img {
+    display: none;
+}
 
 
 /*----------- FOOTER --------------*/
-div#footerWrapper {background-color:#ffff60;}
+
+#footerWrapper {background-color:#ffff60;}
 
 footer {
     padding: 0.5rem 2%;
@@ -120,17 +144,10 @@ footer span {
     color:#af4642;
 }
 
-
-
-
-
-
-
-
-
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
   }
+

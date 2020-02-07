@@ -67,19 +67,20 @@ main h2 {
     background-color:#af4642;
     margin: 0;
     padding: 1rem 0;
+    color: white;
 
 }
 .forecast div img {
     width: 40px;
 }
 
- section.news {
+ .news {
      padding: 2%;
  } 
-    
 
-section.news img {
+.news img {
     width: 250px;
+    margin: 0 2%;
     float: right;
     border: 1px;
     box-shadow: 0 0 10px gray;
@@ -99,6 +100,7 @@ section.news img {
 
 
 .contactInfo div img { 
+    display: block;
     width: 250px; 
     border:1px;
     box-shadow: 0 0 10px gray;}
