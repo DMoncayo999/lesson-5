@@ -14,6 +14,7 @@ body {
 
 /*----------- HEADER --------------*/
 div#headerWrapper {background-color:#ffff60;} 
+
 header {
     padding: .5rem 0 .5rem 2%;
     
@@ -59,12 +60,42 @@ nav ul li a:hover {background-color: #fca762;}
 
 nav ul.hide {display:none;}
 
-/*----------- MAIN --------------
-
+/*----------- MAIN --------------*/
 main {
-    padding: 0 2%;
-    min-height: 10rem;}*/
+    
+    min-height: 10rem;}
 
+main h2 {
+        text-align:center; 
+}
+
+.herodiv {
+    position: relative;
+    width: 100%;
+    height: 40%;
+}
+
+.hero-img {
+    margin: 0;
+    padding: 2%;
+    width: 100%;
+    height: 18vh;
+}
+
+.weathersummary {
+        position: absolute;
+        top: 10%;
+        left: 30px;
+        background: radial-gradient(yellow, lightyellow);
+        padding: 1.5rem;
+        border: 1px solid #000;
+        box-shadow: 0 0 20px yellow;
+
+}
+
+
+
+#fiveDayForecast {display: none;}
 
 
 
