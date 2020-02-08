@@ -61,9 +61,22 @@ nav ul li a:hover {background-color: #fca762;}
 nav ul.hide {display:none;}
 
 /*----------- MAIN --------------*/
-main {
-    
-    min-height: 10rem;}
+
+@keyframes example {
+    from {background-color: red;color:white;}
+    to {background-color: yellow;color:black}
+}
+#alertBanner {
+    font-size:1.2rem;
+    color: black;
+    background-color: yellow;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+main {    
+    min-height: 10rem;
+}
 
 main h2 {
         text-align:center; 
